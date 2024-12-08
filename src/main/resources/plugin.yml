@@ -1,0 +1,12 @@
+name: ItemConfigurator
+version: '${version}'
+main: ru.shirk.itemconfigurator.ItemConfigurator
+api-version: '1.16'
+
+commands:
+  itest:
+    description: "Test"
+  invtest:
+    description: "Test inventory"
+  testinv:
+    description: "Test inventory saver"
