@@ -1,4 +1,4 @@
-package ru.shirk.itemconfigurator.configurator.items.potions;
+package ru.shirk.itemconfiguratorapi;
 
 import lombok.Getter;
 import lombok.NonNull;
@@ -8,8 +8,7 @@ import org.bukkit.inventory.meta.PotionMeta;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionType;
 import org.jetbrains.annotations.Nullable;
-import ru.shirk.itemconfigurator.configurator.CException;
-import ru.shirk.itemconfigurator.configurator.Serializable;
+import ru.shirk.itemconfiguratorapi.potions.CCustomEffect;
 
 import java.util.ArrayList;
 import java.util.List;
