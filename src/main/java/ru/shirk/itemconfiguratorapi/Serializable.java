@@ -1,4 +1,4 @@
-package ru.shirk.itemconfigurator.configurator;
+package ru.shirk.itemconfiguratorapi;
 
 import lombok.NonNull;
 import org.bukkit.configuration.ConfigurationSection;

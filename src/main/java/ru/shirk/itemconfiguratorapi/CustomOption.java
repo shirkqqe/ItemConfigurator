@@ -1,11 +1,8 @@
-package ru.shirk.itemconfigurator.configurator.items.options;
+package ru.shirk.itemconfiguratorapi;
 
 import lombok.Getter;
 import lombok.NonNull;
 import org.bukkit.configuration.ConfigurationSection;
-import org.jetbrains.annotations.Nullable;
-import ru.shirk.itemconfigurator.configurator.CException;
-import ru.shirk.itemconfigurator.configurator.Serializable;
 
 public class CustomOption<Z> implements Serializable<CustomOption<Z>> {
 

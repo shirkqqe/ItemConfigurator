@@ -13,11 +13,11 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 import ru.shirk.itemconfigurator.ItemConfigurator;
 import ru.shirk.itemconfigurator.config.Configuration;
-import ru.shirk.itemconfigurator.configurator.CException;
-import ru.shirk.itemconfigurator.configurator.Configurator;
-import ru.shirk.itemconfigurator.configurator.ConfiguratorAPI;
-import ru.shirk.itemconfigurator.configurator.items.CItem;
 import ru.shirk.itemconfigurator.inventory.TestInv;
+import ru.shirk.itemconfiguratorapi.CException;
+import ru.shirk.itemconfiguratorapi.Configurator;
+import ru.shirk.itemconfiguratorapi.ConfiguratorAPI;
+import ru.shirk.itemconfiguratorapi.items.CItem;
 
 import java.util.List;
 
