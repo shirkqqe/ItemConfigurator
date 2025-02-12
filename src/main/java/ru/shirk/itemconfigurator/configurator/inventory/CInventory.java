@@ -5,7 +5,6 @@ import lombok.NonNull;
 import org.bukkit.Bukkit;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.inventory.Inventory;
-import ru.shirk.itemconfigurator.ItemConfigurator;
 import ru.shirk.itemconfigurator.configurator.CException;
 import ru.shirk.itemconfigurator.configurator.Serializable;
 import ru.shirk.itemconfigurator.configurator.items.CItem;
