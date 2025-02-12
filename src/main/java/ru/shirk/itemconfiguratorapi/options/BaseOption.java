@@ -1,4 +1,4 @@
-package ru.shirk.itemconfigurator.configurator.items.options;
+package ru.shirk.itemconfiguratorapi.options;
 
 import lombok.Getter;
 import lombok.NonNull;
@@ -6,9 +6,8 @@ import org.bukkit.NamespacedKey;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.persistence.PersistentDataContainer;
 import org.bukkit.persistence.PersistentDataType;
-import org.jetbrains.annotations.Nullable;
-import ru.shirk.itemconfigurator.configurator.CException;
-import ru.shirk.itemconfigurator.configurator.Serializable;
+import ru.shirk.itemconfiguratorapi.CException;
+import ru.shirk.itemconfiguratorapi.Serializable;
 
 public class BaseOption<Z> implements Serializable<BaseOption<Z>> {
 

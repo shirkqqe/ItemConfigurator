@@ -1,12 +1,12 @@
-package ru.shirk.itemconfigurator.configurator;
+package ru.shirk.itemconfiguratorapi;
 
 import lombok.NonNull;
 import org.bukkit.Material;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
-import ru.shirk.itemconfigurator.configurator.inventory.CInventory;
-import ru.shirk.itemconfigurator.configurator.items.CItem;
+import ru.shirk.itemconfiguratorapi.inventory.CInventory;
+import ru.shirk.itemconfiguratorapi.items.CItem;
 
 import java.util.ArrayList;
 import java.util.HashMap;

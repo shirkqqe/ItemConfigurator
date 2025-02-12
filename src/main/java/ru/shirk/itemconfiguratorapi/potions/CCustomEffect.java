@@ -1,11 +1,11 @@
-package ru.shirk.itemconfigurator.configurator.items.potions;
+package ru.shirk.itemconfiguratorapi.potions;
 
 import lombok.Getter;
 import lombok.NonNull;
 import org.bukkit.configuration.ConfigurationSection;
 import org.bukkit.potion.PotionEffectType;
-import ru.shirk.itemconfigurator.configurator.CException;
-import ru.shirk.itemconfigurator.configurator.Serializable;
+import ru.shirk.itemconfiguratorapi.CException;
+import ru.shirk.itemconfiguratorapi.Serializable;
 
 @Getter
 public class CCustomEffect implements Serializable<CCustomEffect> {

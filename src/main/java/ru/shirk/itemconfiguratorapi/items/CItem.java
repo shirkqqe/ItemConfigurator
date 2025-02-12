@@ -1,4 +1,4 @@
-package ru.shirk.itemconfigurator.configurator.items;
+package ru.shirk.itemconfiguratorapi.items;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -18,13 +18,12 @@ import org.bukkit.potion.PotionData;
 import org.bukkit.potion.PotionEffect;
 import org.bukkit.potion.PotionEffectType;
 import org.jetbrains.annotations.Nullable;
-import ru.shirk.itemconfigurator.ItemConfigurator;
-import ru.shirk.itemconfigurator.configurator.CException;
-import ru.shirk.itemconfigurator.configurator.Serializable;
-import ru.shirk.itemconfigurator.configurator.items.options.BaseOption;
-import ru.shirk.itemconfigurator.configurator.items.options.CustomOption;
-import ru.shirk.itemconfigurator.configurator.items.potions.CCustomEffect;
-import ru.shirk.itemconfigurator.configurator.items.potions.CPotionMeta;
+import ru.shirk.itemconfiguratorapi.CException;
+import ru.shirk.itemconfiguratorapi.CPotionMeta;
+import ru.shirk.itemconfiguratorapi.CustomOption;
+import ru.shirk.itemconfiguratorapi.Serializable;
+import ru.shirk.itemconfiguratorapi.options.BaseOption;
+import ru.shirk.itemconfiguratorapi.potions.CCustomEffect;
 
 import java.util.*;
 import java.util.stream.Collectors;

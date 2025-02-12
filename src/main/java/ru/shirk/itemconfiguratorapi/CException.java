@@ -1,4 +1,4 @@
-package ru.shirk.itemconfigurator.configurator;
+package ru.shirk.itemconfiguratorapi;
 
 public class CException extends Exception {
     public CException(String message) {
